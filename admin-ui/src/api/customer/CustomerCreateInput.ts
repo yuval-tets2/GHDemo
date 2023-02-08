@@ -4,4 +4,5 @@ export type CustomerCreateInput = {
   events?: EventCreateNestedManyWithoutCustomersInput;
   firstName?: string | null;
   lastName?: string | null;
+  phone?: string | null;
 };
